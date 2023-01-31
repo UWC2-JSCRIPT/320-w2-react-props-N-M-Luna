@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 3%;
+}
+.section-header hr {
+  height: 2px;
+  border-width:0;
+  background-color:gray;
+}
+p {
+  color: gray;
+  font-size: .9rem;
+}
+
+/* your-articles and missed-articles describe the horizontal and vertical cards */
+.your-articles {
+  border: 1px solid lightgray;
+  display: inline-block;
+  margin: 5px;
+  width: 45%;
+}
+.missed-articles {
+  border: 1px solid lightgray;
+  display: inline-block;
+  margin: 5px;
+  width: 30%;
+}
+
+/* your-articles-img and missed-articles-img describe the two different aspect ratios for the article image */
+.your-articles-img {
+  object-fit:cover;
+  width:45%;
+  height: 300px;
+  border: solid 1px #CCC;
+  float: left;
+
+}
+.missed-articles-img {
+  width: 100%;
+
+}
+
+/* your-articles-preview and missed-articles-preview have the title and description of the article */ 
+.your-articles-preview {
+  float: right;
+  padding-right: 3px;
+  width: 50%;
+}
+.missed-articles-preview {
+  margin: auto;
+  width: 90%;
+}
+
+/* your-articles-author and missed-articles-author have the author's avatar and name, as well as the date published and the time needed to read the article */
+.your-articles-author {
+  float: right;
+  margin-top: 25px;
+  width: 50%;
+}
+.missed-articles-author {
+  margin: auto;
+  width: 90%;
+}
+.author-name {
+  color: black;
+}
+
+/* member-writer and oustide-writer describe the author avatar with or without green halo */
+.member-writer {
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 60px;
+} 
+.oustide-writer {
+  border: solid 3px olivedrab;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  width: 57px;
+}
